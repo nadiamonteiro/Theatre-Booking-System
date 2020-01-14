@@ -1,0 +1,53 @@
+<html>
+<body>
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyles.css" />
+	<h1> Westview Theatre Booking</h1>
+</head>
+<br><br>
+<div id="header"><h2> Live the Play! </h2></div><br><br>
+<div id="nav">
+ <h3> Navigation </h3>
+ <ul>
+	<li><a class="selected" href=""> About </a></li>
+	<li><a href="http://raptor.kent.ac.uk/~njm59/CO887/assessment2/perf2.php"> Performances </a></li>
+	<li><a href=""> Contact </a> </li>
+</div>
+<div id="bookings"> <h3> Book with us... </h3>
+	<form action="perf1.php" method="GET">
+	<p> First Name:    <input  type="text" name="fname" value="Jane" Onchange = '
+			if (this.value==""){
+			alert("Please enter a valid Name.");
+			this.value="";
+		}'required /></p>													<!--//User input first name with name validation-->
+	<p> Last Name:    <input  type="text" name="lname" value="Doe" Onchange = '
+			if (this.value==""){
+		  alert("Please enter a valid Name.");
+			this.value="";
+		}'required /></p>													<!--User input last name with name validation-->
+	<p> Email address: <input type="email" value="janedoe@email.com" name="email" /></p>  <!--//User input email address with email address validation-->
+  <button type="submit" value="performances" formaction="perf.php"/> See performances</button></p> <!--Connect 'index.html' to 'perf.php'-->
+	</form>
+</div>
+<div id="container">
+ <div id="content">
+	<div id="main">
+		<h2> About us</h2>
+		<p>Founded in 1956, Westview Theatre is one of the best and most efficient and luxurious theatres in all of Kent, and known for its services
+		 	all through the UK and Ireland. Westview Theatre has hosted over 100 of UK's biggest Off-West End opening nights featuring celebrities
+			and stars of the stage and screen.</p>
+		<p>Over the years, in addition to being home to several plays including but not limited to Hamilpun, The Lyon King and Wart Horse, Westview's
+			stage has also had the honour of the performances of many big bands such as The Rolling Stoners, Queens and Pink Freud, who played their
+			first mindblowing gig here in 1965.</p>
+		<p>We are dedicated to giving you the best possible theatrical experience, having always been at providing for our customers.
+	  	Offering more than just popcorn and soft drinks, we offer a menus worth of food and drinks. We also offer our theatre as a venue for
+			private hire. Our stage being ideal for events such as conferences, team building, product launches, as well as plays and shows of
+			your own.</p>
+	</div>
+ </div>
+</div>
+<div id="footer">
+Copyright &copy; 2019 Westview.
+</div>
+</body>
+</html>

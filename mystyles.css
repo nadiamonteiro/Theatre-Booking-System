@@ -1,0 +1,170 @@
+body{
+background-color: #b3f0ff;
+font-family:candara,courier,helvetica;
+}
+
+#container {
+  background-color: #b3f0ff;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	font-family:candara,courier,helvetica;
+	font-variant: small-caps;
+	color: white;
+	text-shadow: 2px 2px #000000;
+	align-content: center;
+	float: center;
+}
+
+h2 {
+	font-family:candara,snell roundhand,helvetica;
+	font-family:candara,courier,helvetica;
+	font-variant: small-caps;
+}
+
+h3 {
+	font-family:candara,courier,helvetica;
+	margin: 0;
+}
+
+input {
+	font-family:candara,courier,helvetica;
+}
+
+.button {
+	position: absolute;
+	padding: 10px;
+}
+
+table.content{
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9em;
+	min-width: 600px;
+	padding: 10px;
+	text-align: left;
+	align: center;
+}
+
+table.content thead tr {
+	background-color: #0066ff;
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+}
+
+.content th, .content td {
+	padding: 12px 15px;
+}
+
+.content tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+table.performances{
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9em;
+	min-width: 300px;
+	padding: 10px;
+	text-align: left;
+	align: center;
+}
+
+table.performances thead tr {
+	background-color: #0066ff;
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+}
+
+.performances th, .performances td {
+	padding: 12px 15px;
+}
+
+.performances tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+#confirm{
+  width: 600px;
+	background-color: #00ccff;
+	font-family:candara,courier,helvetica;
+	top: 50px;
+	height: 600px;
+	padding: 10px;
+	height: 600px;
+  margin: auto;
+}
+
+#total {
+	width: 275px;
+	background-color: #00ccff;
+	font-family:candara,courier,helvetica;
+	float: right;
+	top: 50px;
+	height: 600px;
+}
+
+#nav {
+	width: 180px;
+	background-color: #00ccff;
+	font-family:candara,courier,helvetica;
+	height: 600px;
+	float: left;
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#content {
+	padding: 10px;
+	float: center;
+}
+#bookings {
+
+	width: 275px;
+	background-color: #00ccff;
+	font-family:candara,courier,helvetica;
+	float: right;
+	top: 50px;
+	height: 600px;
+	padding: 10px;
+}
+.selected{
+	font-weight: bold;
+}
+
+#booking {
+	width: 275px;
+	background-color: #00ccff;
+	font-family:candara,courier,helvetica;
+	float: right;
+	top: 50px;
+	height: 600px;
+}
+
+#header {
+	background-color: #b3f0ff;
+	color: white;
+	text-align: center;
+	font-family:candara,courier,helvetica;
+	padding: 10px;
+	text-shadow: 2px 2px #000000;
+}
+#main{
+	width: 600px;
+}
+
+#footer {
+	clear: both;
+	background-color: #f5f5ad;
+	padding: 20px;
+	margin: 0;
+	text-align: right;
+}
